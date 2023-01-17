@@ -17,8 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         helloworldLabel.isHidden = true
-        todoButton.layer.cornerRadius = 15
-        // Do any additional setup after loading the view.
+        todoButton.layer.cornerRadius = 40
     }
 
     @IBAction func makeButtonAction() {
